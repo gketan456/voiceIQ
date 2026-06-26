@@ -1,0 +1,16 @@
+# Virtual environment - never commit this
+venv/
+
+# Environment variables - contains secret API keys
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
