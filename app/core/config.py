@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     
 
     #Bedrock
-    bedrock_model_id: str = "anthropic.claude-3-5-sonnet-20240620-v1:0"
+    bedrock_model_id: str = ""
 
 @lru_cache
 def get_settings() -> Settings:
